@@ -1,0 +1,106 @@
+@media(max-width:1200px){
+    .lorem{
+        left: 10%;
+        right: 10%;
+    }
+}
+
+@media(max-width:900px){
+    .lorem li{
+        width: 43%;
+    }
+    .logo{
+        right: 2%;
+    }
+}
+
+@media(max-width:780px){
+    .lorem{
+        left: 5%;
+        right: 5%;
+    }
+
+}
+
+@media(max-width:650px){
+    nav ul{
+        margin-left: -205px;
+    }
+}
+
+/*Бургур меню*/
+@media(max-width:550px){
+    nav {
+        display: none;
+    }
+
+    header .wrap .text-menu{
+        display: block;
+        font-size: 20px;
+        top: 30px;
+    }
+
+    header nav:hover{
+        display: block;
+        position: inherit;
+    }
+
+    header .wrap .text-menu:hover{
+        display: block;
+        padding-bottom: 150px;
+        padding-right: 80%;
+        color: rgb(210, 36, 36);
+        margin-bottom: 100px;
+    }
+
+    header .wrap .text-menu:hover ~nav{
+        display: block;
+    }
+
+    nav ul {
+        position: absolute;
+        left: 0%;
+        margin-left: 0px;
+        margin: 0px;
+        top: 80px;
+        width: 100%;
+        background-color: lightgrey;
+        z-index: 1;
+    }
+
+    nav ul li{
+        float: none;
+        margin: 5px;
+    }
+
+    nav ul li a{
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li a:hover{
+        background-color:lightskyblue;
+    }
+
+}
+
+@media(max-width:530px){
+    .lorem{
+        left: 2%;
+        right: 2%;
+    }
+
+    .lorem li{
+        padding-top: 10px;
+    }
+}
+
+@media(max-width:480px){
+    .main{
+        min-height: 750px;
+    }
+    
+    .lorem li{
+        width: 93%;
+    }
+}

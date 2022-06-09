@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+}
+
+/* header */
+header{
+    background-color: lightgrey;
+    height: 80px;
+}
+
+header .wrap{
+    position: relative;
+    margin: 0px;
+}
+
+header .wrap .text-menu{
+    position: absolute;
+    left: 1%;
+    top: 35px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    left: 50%;
+    margin-left: -185px;
+    top: 25px;
+}
+
+nav ul li{
+    float: left;
+}
+
+header a, .lorem-list a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.menu{
+    color: rgb(210, 36, 36);
+    padding: 3px 15px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.logo{
+    position: absolute;
+    right: 5%;
+    top: 12px;
+}
+
+/* Section main */
+.content{
+    position: relative;
+}
+.main{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(/e-tron-s-main.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.content-left{
+    position: absolute;
+    width: 300px;
+    top: 50px;
+    left: 50px;
+    background-color: lightgray;
+    opacity: 70%;
+    border: 1px solid rgb(210, 36, 36);
+    -moz-border-radius-topleft: 30px;
+    -webkit-border-top-left-radius: 30px;
+    border-top-left-radius: 30px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-bottomright: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.content-left h1{
+    margin-left: 3%;
+    margin-bottom: 0px;
+}
+
+.content-left p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* main-flag */
+
+.main-flag{
+    width: 100%;
+    height: 70px;
+}
+
+.color1{
+    background-color: #000;
+}
+
+.color2{
+    background-color: red;
+}
+
+.color3{
+    background-color: yellow;
+}
+
+.lorem{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    bottom: 0;
+}
+
+.lorem ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0 auto;
+}
+.lorem li{
+    position: relative;
+    float: left;
+    width: 18.5%;
+    margin: 0px 2% 20px 2%;
+    padding: 30px 1%;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.lorem a{
+    color: rgb(210, 36, 36);
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 35%;
+    margin-bottom: 0px;
+    position: absolute;
+    left:50%;
+    margin-left: -42px;
+}
+
+
+.content-2{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(/944310067.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.content-2 p{
+    width: 10%;
+    padding: 50px 1%;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    background-color: lightgray;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 10px;
+    position: relative;
+    margin: 0%;
+}
+
+footer ul .email{
+    text-align: right;
+    margin-right: 5px;
+}
+
+
